@@ -20,7 +20,7 @@
 :root {
   --nav-color: #2c4964;  /* The default color of the main navmenu links */
   --nav-hover-color: #1977cc; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-mobile-background-color: black; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #2c4964; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #1977cc; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
@@ -930,11 +930,13 @@ section,
   margin: 0;
   font-size: 48px;
   font-weight: 700;
+  color: white;
 }
 
 .hero .welcome p {
   font-size: 24px;
   margin: 0;
+  color: white;
 }
 
 .hero .content {
