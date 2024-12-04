@@ -930,11 +930,13 @@ section,
   margin: 0;
   font-size: 48px;
   font-weight: 700;
+  color: white;
 }
 
 .hero .welcome p {
   font-size: 24px;
   margin: 0;
+  color: white;
 }
 
 .hero .content {
