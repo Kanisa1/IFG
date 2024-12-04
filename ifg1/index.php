@@ -484,38 +484,57 @@
         <h3>Who's giving today?</h3>
         <br>
 
-        <form action="" method="post"  class="php-email-form">
-          <div class="row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="firstName" class="form-control" id="name" placeholder="Your First Name" required="">
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="lastName" id="email" placeholder="Your Last Name" required="">
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 form-group mt-3">
-              <input type="email" name="email" class="form-control" id="email" placeholder="Your email" required="">
-            </div>
-            
-            
-         
+        <form action="" method="post">
+  <div class="row">
+    <div class="col-md-4 form-group">
+      <input type="text" name="firstName" class="form-control" id="firstName" placeholder="Your First Name" required="">
+    </div>
+    <div class="col-md-4 form-group mt-3 mt-md-0">
+      <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Your Last Name" required="">
+    </div>
+    <div class="col-md-4 form-group mt-3 mt-md-0">
+      <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 form-group mt-3">
+      <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required="">
+    </div>
+  </div>
+  <div class="form-group mt-3">
+    <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+  </div>
+  <div class="mt-3">
+    <div class="text-center"><button name="submit" type="submit" class="btn btn-primary">Submit</button></div>
+  </div>
+</form>
 
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
-          </div>
-          <div class="mt-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
-            <div class="text-center"><button type="submit">Submit</button></div>
-          </div>
-        </form>
 
-      </div>
+      <?php
+if (isset($_POST['submit'])) {
+  $a = $_POST['firstName'] ?? '';
+  $b = $_POST['lastName'] ?? '';
+  $c = $_POST['phone'] ?? '';
+  $d = $_POST['email'] ?? '';
+
+  $con = mysqli_connect("localhost", "root", "", "ifg");
+
+  if (!$con) {
+    die("Connection failed: " . mysqli_connect_error());
+  }
+
+  $ex = "INSERT INTO `donate`(`ID`, `firstName`, `lastName`, `phone`, `email`) VALUES ('','$a','$b','$c','$d')";
+
+  $exq = mysqli_query($con, $ex);
+
+  if ($exq) {
+    echo "Data inserted successfully.";
+  } else {
+    echo "Error: " . mysqli_error($con);
+  }
+}
+?>
+
 
     </section><!-- /Donation Section -->
 
@@ -1078,56 +1097,60 @@
 
 <!-- HTML form -->
 <div class="col-lg-8">
-    <form method="POST">
-        <div class="row gy-4">
-            <div class="col-md-12">
-                <b>JOIN OUR COMMUNITY</b> 
-            </div>
-            <br><br>
-            <div class="col-md-6">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
-            </div>
-            <div class="col-md-6">
-                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-            </div>
-            <div class="col-md-6">
-                <input type="text" name="sex" class="form-control" placeholder="Your Sex" required>
-            </div>
-            <div class="col-md-6">
-                <input type="text" name="education" class="form-control" placeholder="Your Education level" required>
-            </div>
-            <div class="col-md-6">
-                <input type="number" name="phone" class="form-control" placeholder="Your whatsapp number" required>
-            </div>
-            <div class="col-md-6">
-                <select name="category" class="form-control" required>
-                    <option value="Member">Member</option>
-                    <option value="Volunteer">Volunteer</option>
-                </select>
-            </div>
-            <div class="col-md-12">
-                <textarea class="form-control" name="message" rows="6" placeholder="Enter your motivation to join us (more than 100 words)" required></textarea>
-            </div>
-            <center>
-              <input type="submit" name="submit" class="btn btn-primary">
-            </center>
+<form method="POST">
+    <div class="row gy-4">
+        <div class="col-md-12">
+            <b>JOIN OUR COMMUNITY</b>
         </div>
-    </form>
+        <div class="col-md-6">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="col-md-6">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="sex" class="form-control" placeholder="Your Sex" required>
+        </div>
+        <div class="col-md-6">
+            <input type="text" name="education" class="form-control" placeholder="Your Education level" required>
+        </div>
+        <div class="col-md-6">
+            <input type="number" name="phone" class="form-control" placeholder="Your WhatsApp Number" required>
+        </div>
+        <div class="col-md-6">
+            <select name="category" class="form-control" required>
+                <option value="Member">Member</option>
+                <option value="Volunteer">Volunteer</option>
+            </select>
+        </div>
+        <div class="col-md-12">
+            <textarea class="form-control" name="message" rows="6" placeholder="Enter your motivation to join us (more than 100 words)" required></textarea>
+        </div>
+        <div class="col-md-12 text-center">
+            <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+        </div>
+    </div>
+</form>
 
 
-    <?php
-// Enable error reporting
+  
 
 
-if (isset($_POST['submit'])) {
-    $a = $_POST['name'];
-    $b = $_POST['email'];
-    $c = $_POST['sex'];
-    $d = $_POST['education'];
-    $e = $_POST['phone'];
-    $f = $_POST['category'];
-    $g = $_POST['message'];
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
+    
+   
 
+    // Get form data safely using the actual form field names
+    $name = $_POST['name'] ?? '';
+    $email = $_POST['email'] ?? '';
+    $sex = $_POST['sex'] ?? '';
+    $education = $_POST['education'] ?? '';
+    $phone = $_POST['phone'] ?? '';
+    $category = $_POST['category'] ?? '';
+    $message = $_POST['message'] ?? '';
+
+    // Database connection
     $con = mysqli_connect("localhost", "root", "", "ifg");
 
     // Check connection
@@ -1135,17 +1158,23 @@ if (isset($_POST['submit'])) {
         die("Connection failed: " . mysqli_connect_error());
     }
 
-    // SQL query
-    $qx = "INSERT INTO `join_us`(`name`, `email`, `sex`, `education`, `phone`, `category`, `message`) 
-           VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g')";
+    // Prepare SQL query
+    $sql = "INSERT INTO `join_us` (`name`, `email`, `sex`, `education`, `phone`, `category`, `message`) 
+            VALUES ('$name', '$email', '$sex', '$education', '$phone', '$category', '$message')";
 
-    if (mysqli_query($con, $qx)) {
+    // Execute query and check for success
+    if (mysqli_query($con, $sql)) {
         echo "Data submitted successfully!";
     } else {
-        echo "Error: " . mysqli_error($con);
+        echo "Error inserting data: " . mysqli_error($con);
     }
+
+    // Close the connection
+    mysqli_close($con);
 }
 ?>
+
+
 </div>
 
 <!-- End Contact Form -->
@@ -1176,7 +1205,7 @@ if (isset($_POST['submit'])) {
             <div class="social-links d-flex mt-4">
               <a href="https://x.com/informed_gens?s=09"><i class="bi bi-twitter-x"></i></a>
               <a href=""><i class="bi bi-facebook"></i></a>
-              <a href=""><i class="bi bi-titok"></i></a>
+              <a href="https://vm.tiktok.com/ZMhxSMfpp/"><i class="fab fa-tiktok"></i></a>
               <a href="https://www.instagram.com/informed_gens?igsh=YzljYTk1ODg3Zg== "><i class="bi bi-instagram"></i></a>
               <a href="https://www.linkedin.com/in/informed-future-generations-51b91b263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
             </div>
