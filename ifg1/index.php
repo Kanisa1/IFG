@@ -78,7 +78,7 @@
         <div class="welcome position-relative" data-aos="fade-down" data-aos-delay="100">
 
           <div class="col-md-8">
-            <h2>Informed Future Generations</h2>
+            <marquee behavior="" direction="down"><h2>Informed Future Generations</h2></marquee>
           <p>We're committed to empowering individuals with HIV testing and knowledge for better well-being. Our goal is a healthier, informed community.</p>
 
           </div>
@@ -255,48 +255,54 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item  position-relative">
               <div class="icon">
-                <i class="fas fa-heartbeat"></i>
+                <i class="fa fa-heartbeat"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>HIV Awareness Education</h3>
+                <h3>Get tested stay healthy</h3>
               </a>
-              <p>Conducted sessions stressing the benefits of knowing one's HIV status, the importance of regular testing, and where to find free and confidential HIV testing services.</p>
+              <p> Through the Get Tested Stay Healthy project in the commission of
+                HIV/AIDS awareness and prevention; we have celebrated National Youth
+                HIV &AIDSAwareness which had not celebrated on 10th April 2024 as we
+                were in the commemoration week of Genocide against Tutsi in 1994.
+                .</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-pills"></i>
+                <i class="fa fa-radio"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>HIV Testing Campaign</h3>
+                <h3> Radio talk</h3>
               </a>
-              <p>Used 400 self-test kits, assisting 48 participants in using the tests. One positive case was identified a 25-year-old pregnant female, who was counseled and referred for further care from those assisted in private tente. She has since been enrolled in antenatal and HIV care at Musha Health Center.</p>
+              <p>IFG organizes radio talks to raise awareness on topics like sexual reproductive health, HIV/AIDS, mental health, and teenage pregnancy. These discussions provide valuable information, encourage open dialogue, and reach a wide audience, helping to educate and empower Rwandan youth to make informed decisions and take positive actions for their well-being.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-hospital-user"></i>
+                <i class="fa fa-calendar-check"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Get Tested</h3>
+                <h3>National HIV Testing day</h3>
               </a>
-              <p></p>
+              <p> National HIV Testing Day:  
+                National HIV Testing Day promotes awareness and encourages everyone to get tested. Knowing your status helps prevent HIV transmission and ensures early treatment. Testing is free, confidential, and saves lives. Get tested. Stay healthy. Break the stigma.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-dna"></i>
+                <i class="fa fa-ribbon"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>cancer awareness campaign</h3>
+                <h3>Cervical cancer awareness</h3>
               </a>
-              <p> fggugy</p>
+              <p>  Cervical Cancer Awareness:  
+                Cervical Cancer Awareness promotes early detection and prevention. Regular screenings (like Pap smears) and HPV vaccinations are key. Early detection saves lives. Stay informed. Get screened. Protect your health.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -304,12 +310,13 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-wheelchair"></i>
+                <i class="fa fa-users"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Celebrating the International Day of Peace</h3>
+                <h3>Youth Engagements</h3>
               </a>
-              <p>bhuhuu</p>
+              <p> Youth Engagement:  
+                IFG engages Rwandan youth (ages 13-30) by encouraging active participation in issues like SRHR, HIV/AIDS, and mental health. They empower young people to take leadership roles, make informed decisions, and contribute to positive change, fostering a sense of responsibility and community involvement..</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -317,15 +324,66 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fas fa-notes-medical"></i>
+                <i class="fa fa-users-cog"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>signing a memorandum of understanding with Shine Rwanda</h3>
+                <h3> IFG clubs</h3>
               </a>
-              <p>vtfyygy</p>
+              <p> 
+                IFG clubs for Rwandan youth (ages 13-30) focus on educating about Sexual Reproductive Health and Rights (SRHR), HIV/AIDS prevention, and mental health. They empower youth with knowledge, promote safe practices, reduce stigma, and encourage open discussions for emotional well-being, aiming to create a healthy, informed, and resilient generation.</p>
               <a href="#" class="stretched-link"></a>
             </div>
-          </div><!-- End Service Item -->
+          </div>
+          
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa fa-globe"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> Nation HIV/AIDS youth day</h3>
+              </a>
+              <p> The purpose of National Youth HIV/AIDS Awareness Day is to raise
+                awareness about the impact of HIV/AIDS on young people and to promote
+                HIV prevention, testing, and treatment initiatives tailored to their needs.
+                Young people are disproportionately affected by HIV/AIDS, with high rates
+                of new infections among adolescents and young adults globally. NYHAAD
+                provides a platform for youth-led advocacy, education, and action to address
+                the epidemic among their peers</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>   
+          
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa fa-brain"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>  Mental health awareness</h3>
+              </a>
+              <p>  
+                IFG promotes mental health awareness among Rwandan youth by encouraging open discussions, reducing stigma, and providing resources for emotional well-being. They empower young people to seek help when needed, build resilience, and prioritize mental health, fostering a supportive and informed community.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>   
+          
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fa fa-baby"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> Teenage pregnancy awareness</h3>
+              </a>
+              <p> Teenage Pregnancy Awareness:  
+                IFG raises awareness about teenage pregnancy by educating youth on prevention, sexual health, and the impact of early pregnancies. They promote informed decision-making, access to resources, and open conversations to reduce stigma and support young people in making responsible choices.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div> 
+          
+          
+          <!-- End Service Item -->
 
         </div>
 
@@ -1127,22 +1185,25 @@ if (isset($_POST['submit'])) {
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><a href="#about"><i class="bi bi-chevron-right"></i> About Us</a></li>
+              <li><a href="#services"><i class="bi bi-chevron-right"></i> Our Activities</a></li>
+              <li><a href="#team"><i class="bi bi-chevron-right"></i> Team</a></li>
+              <li><a href="#gallery"><i class="bi bi-chevron-right"></i> Gallery</a></li>
+              <li><a href="#contact"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
             </ul>
+            
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
             <h4>Our activities</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web & app Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Job placement</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Internet solutions</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> IT consulting</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> cybersecurity Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Radio Talk</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Get Tasted to Stay healthy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Youth Engagements</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> IFG Clubs</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Teenage Pregnancy Awareness</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Mental heath awareness</a></li>
             </ul>
           </div>
 
