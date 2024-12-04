@@ -1254,10 +1254,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     <div class="copyright">
       <div class="container text-center">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">IFG</strong> <span>All Rights Reserved</span></p>
-        <div class="credits">
-         
-          Designed by Kanisa Rebecca
-        </div>
+        
       </div>
     </div>
 
