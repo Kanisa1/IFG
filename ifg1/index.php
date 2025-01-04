@@ -205,34 +205,37 @@
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i class="fa-solid fa-user-doctor"></i>
             <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Staff</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i class="fa-regular fa-hospital"></i>
             <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Departments</p>
+              <span data-purecounter-start="0" data-purecounter-end="10000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Beneficiaries</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
             <i class="fas fa-flask"></i>
             <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
+              <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
               <p>Projects</p>
             </div>
           </div><!-- End Stats Item -->
 
           <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
-            <i class="fas fa-award"></i>
+          <i class="bi bi-geo-alt flex-shrink-0"></i>
             <div class="stats-item">
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Awards</p>
+              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Districts</p>
             </div>
           </div><!-- End Stats Item -->
+
+
+          
 
         </div>
 
@@ -258,13 +261,10 @@
                 <i class="fa fa-heartbeat"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Get tested stay healthy</h3>
+                <h3>Get Tested, Stay Healthy </h3>
               </a>
-              <p> Through the Get Tested Stay Healthy project in the commission of
-                HIV/AIDS awareness and prevention; we have celebrated National Youth
-                HIV &AIDSAwareness which had not celebrated on 10th April 2024 as we
-                were in the commemoration week of Genocide against Tutsi in 1994.
-                .</p>
+              <p> This is an ongoing program that focuses on HIV/AIDS awareness and prevention among youth to address misinformation and stigma that hinder testing and treatment. It offers youth-friendly services such as HIV testing, circumcision, education on safe sex practices, access to PrEP, and promotion of the "Undetectable Equals Untransmittable (U=U)" message. By combating stigma and misinformation, the program fosters a supportive environment for individuals living with or affected by HIV/AIDS.
+              </p>
             </div>
           </div><!-- End Service Item -->
 
@@ -274,9 +274,9 @@
                 <i class="fa fa-radio"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3> Radio talk</h3>
+                <h3> Digital Engagements</h3>
               </a>
-              <p>IFG organizes radio talks to raise awareness on topics like sexual reproductive health, HIV/AIDS, mental health, and teenage pregnancy. These discussions provide valuable information, encourage open dialogue, and reach a wide audience, helping to educate and empower Rwandan youth to make informed decisions and take positive actions for their well-being.</p>
+              <p>Recognizing the growing influence of digital life, this program leverages online platforms to empower youth with knowledge about SRHR, HIV/AIDS, substance abuse, and mental health. Activities include regular posts on social media, live discussions on platforms like X (Twitter) Spaces, and radio talks, ensuring accurate and accessible health information reaches the digital generation.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -286,10 +286,9 @@
                 <i class="fa fa-calendar-check"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>National HIV Testing day</h3>
+                <h3>Informed Gens</h3>
               </a>
-              <p> National HIV Testing Day:  
-                National HIV Testing Day promotes awareness and encourages everyone to get tested. Knowing your status helps prevent HIV transmission and ensures early treatment. Testing is free, confidential, and saves lives. Get tested. Stay healthy. Break the stigma.</p>
+              <p> In collaboration with the Rwanda Biomedical Center, this program empowers adolescents and young adults to make informed health choices and drive social behavior change in their communities. Through IFG Clubs and youth-friendly health stations in Rwamagana and Gatsibo districts, the program decentralizes health information and services, making them accessible and tailored to young people's needs.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -299,10 +298,9 @@
                 <i class="fa fa-ribbon"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Cervical cancer awareness</h3>
+                <h3>Teen Mom Success </h3>
               </a>
-              <p>  Cervical Cancer Awareness:  
-                Cervical Cancer Awareness promotes early detection and prevention. Regular screenings (like Pap smears) and HPV vaccinations are key. Early detection saves lives. Stay informed. Get screened. Protect your health.</p>
+              <p> This program supports teenage mothers in achieving their dreams while promoting healthy outcomes for both mothers and their children. It addresses the challenges of unplanned teenage pregnancies, prevents stunting in children born to teen moms, and provides resources for education, career development, and fruitful parenthood, creating successful stories of resilience and growth.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -313,10 +311,9 @@
                 <i class="fa fa-users"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Youth Engagements</h3>
+                <h3>Like Your Sister</h3>
               </a>
-              <p> Youth Engagement:  
-                IFG engages Rwandan youth (ages 13-30) by encouraging active participation in issues like SRHR, HIV/AIDS, and mental health. They empower young people to take leadership roles, make informed decisions, and contribute to positive change, fostering a sense of responsibility and community involvement..</p>
+              <p> Fostering a culture of respect and care, this program encourages everyone to treat girls and women as they would their sisters. It challenges harmful cultural and social norms that perpetuate teenage pregnancies, gender-based violence, inequality, and mental health challenges. The program promotes gender equality, children's rights, girl-child education, and the development of village women, advocating for a safer and more inclusive society.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -327,60 +324,19 @@
                 <i class="fa fa-users-cog"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3> IFG clubs</h3>
+                <h3> No One is Immune </h3>
               </a>
               <p> 
-                IFG clubs for Rwandan youth (ages 13-30) focus on educating about Sexual Reproductive Health and Rights (SRHR), HIV/AIDS prevention, and mental health. They empower youth with knowledge, promote safe practices, reduce stigma, and encourage open discussions for emotional well-being, aiming to create a healthy, informed, and resilient generation.</p>
+              This mental health program empowers children and young adults to become informed decision-makers about their mental well-being. It emphasizes the importance of recognizing early signs of mental health challenges, building coping skills, and normalizing mental health discussions. By advocating for stigma-free environments, the program ensures no one feels left behind, as no one who is born immune health challenges, it affects everyone equally.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div>
           
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa fa-globe"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3> Nation HIV/AIDS youth day</h3>
-              </a>
-              <p> The purpose of National Youth HIV/AIDS Awareness Day is to raise
-                awareness about the impact of HIV/AIDS on young people and to promote
-                HIV prevention, testing, and treatment initiatives tailored to their needs.
-                Young people are disproportionately affected by HIV/AIDS, with high rates
-                of new infections among adolescents and young adults globally. NYHAAD
-                provides a platform for youth-led advocacy, education, and action to address
-                the epidemic among their peers</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div>   
+            
           
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa fa-brain"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3>  Mental health awareness</h3>
-              </a>
-              <p>  
-                IFG promotes mental health awareness among Rwandan youth by encouraging open discussions, reducing stigma, and providing resources for emotional well-being. They empower young people to seek help when needed, build resilience, and prioritize mental health, fostering a supportive and informed community.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div>   
+             
           
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa fa-baby"></i>
-              </div>
-              <a href="#" class="stretched-link">
-                <h3> Teenage pregnancy awareness</h3>
-              </a>
-              <p> Teenage Pregnancy Awareness:  
-                IFG raises awareness about teenage pregnancy by educating youth on prevention, sexual health, and the impact of early pregnancies. They promote informed decision-making, access to resources, and open conversations to reduce stigma and support young people in making responsible choices.</p>
-              <a href="#" class="stretched-link"></a>
-            </div>
-          </div> 
+           
           
           
           <!-- End Service Item -->
@@ -475,8 +431,10 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Donate</h2>
-        <p>"Every donation counts in the fight against HIV."     
-               "Empower the next generation to stay healthy and informed."</p>
+        <p>Every donation counts in saving future generations from the impacts of teenage pregnancies, unsafe abortions, HIV/AIDS, substance abuse, and related mental health challenges. 
+
+Make your donation today and empower youth to make informed health choices for a brighter future!</p>
+<br>
         <h4>Donate to this bank account: <br> BK:100173181827</h4>
       </div><!-- End Section Title -->
 
@@ -562,12 +520,12 @@ if (isset($_POST['submit'])) {
               <div class="member-info">
                 <h4>KWIBUKA Jaques</h4>
                 <span>Founder and Executive Director</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                <p>Empowered and vision-oriented young leader, holder of BScN from the University of Rwanda. An early-career nurse activist and youth advocate, passionate about public policy, youth empowerment, and transformative leadership.</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href="https://x.com/jackwibuka?s=09"><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  <a href=" https://www.instagram.com/kwibuka_jacques?igsh=YzljYTk1ODg3Zg== "><i class="bi bi-instagram"></i></a>
+                  <a href=" https://www.linkedin.com/in/jackwibuka?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "> <i class="bi bi-linkedin"></i> </a>
                 </div>
               </div>
             </div>
@@ -582,6 +540,24 @@ if (isset($_POST['submit'])) {
               <div class="member-info">
                 <h4>SHIMWA MBABAZI Josiane</h4>
                 <span>Executive Secretary</span>
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/chris-img.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>MUHIRE Neika Chris</h4>
+                <span>Deputy Executive Director</span>
                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -611,29 +587,12 @@ if (isset($_POST['submit'])) {
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/ange.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>DUSABE Ange Joselyne</h4>
-                <span>Director Of Monitoring and Evaluation</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/chris-img.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/kayisire-img.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>MUHIRE Neika Chris</h4>
-                <span>DEPUTY Executive Director</span>
+                <h4>KAYISIRE Natacha</h4>
+                <span>Director of finance and Human resources</span>
                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -644,25 +603,6 @@ if (isset($_POST['submit'])) {
               </div>
             </div>
           </div><!-- End Team Member -->
-
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/emanuel-img.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>MANIZABAYO Emmanuel</h4>
-                <span>Director Of Discipline</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member d-flex align-items-start">
@@ -681,13 +621,32 @@ if (isset($_POST['submit'])) {
             </div>
           </div><!-- End Team Member -->
 
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/ange.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>DUSABE Ange Joselyne</h4>
+                <span>Director Of Monitoring and Evaluation</span>
+                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          
+
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/kayisire-img.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/emanuel-img.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>KAYISIRE Natacha</h4>
-                <span>Director of finance and Human resources</span>
+                <h4>MANIZABAYO Emmanuel</h4>
+                <span>Director Of Programs</span>
                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -700,12 +659,18 @@ if (isset($_POST['submit'])) {
           </div><!-- End Team Member -->
 
 
+          
+
+
+          
+
+
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/mertine-img.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>KOMEZUSENGE Mertine</h4>
-                <span>Director of Programs</span>
+                <span>General Secretary</span>
                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -723,7 +688,7 @@ if (isset($_POST['submit'])) {
               <div class="pic"><img src="assets/img/team/patrick-img.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>NIYIGENA Patrick</h4>
-                <span>Director Of Procurement and logistics</span>
+                <span>Administrative Assistant</span>
                 <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -924,7 +889,7 @@ if (isset($_POST['submit'])) {
                     <div class="d-flex">
                       <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img flex-shrink-0" alt="">
                       <div>
-                        <h3>KWIBUKA Jacques</h3>
+                        <h3>Emmanuel Hasengineza</h3>
                         <h4>Store Owner</h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -1070,7 +1035,7 @@ if (isset($_POST['submit'])) {
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Location</h3>
-                <p>Rwamagana, Rwanda</p>
+                <p>Rwamagana & Gatsibo, Rwanda</p>
               </div>
             </div><!-- End Info Item -->
 
