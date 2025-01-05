@@ -179,11 +179,24 @@
                 <i class="fa-solid fa-heart-circle-xmark"></i>
                 <div>
                   <h5>Our Core Values</h5>
-                  <p>➢ Professionalism: We as health care professionals, we stay professional during implementation of the projects, with respect to codes and conduct in the organization and profession's ethics.<br>
-                    ➢ Integrity: It is our foundation for trust and confidence in our community and in our organization for the people we serve and collaborate.<br>
-                    ➢ Inclusiveness: Embracing all people regardless of race, gender, ethnicity, age, disability, religious beliefs, sexual orientation, education, or national origin.<br>
-                    ➢ Accountability: We are obligated and willing to accept responsibility in our organization and become accountable for them.<br>
-                    ➢  Authenticity: Being authentic to our objectives and during project implementations.</p>
+                  <p>➢ Professionalism: We maintain high standards of expertise and
+conduct in every aspect of our work,ensuring adherence to
+organizational policies, ethical principles, and professional guidelines.This commitment fosters trust and credibility among the communities we serve and our partners.
+.<br><br>
+                    ➢ Integrity: As a foundation of our operations,integrity ensures
+that we remain transparent,honest,and ethical.We prioritize
+trust worthiness in our interactions with stakeholders,creating a dependable and respected organization.
+<br><br>
+                    ➢ Inclusiveness:We actively promote diversity and equity,
+ensuring that our programs and initiatives are accessible and
+beneficial to all,regardless of race,gender,ethnicity,age,
+disability,religion,sexual orientation,or background.
+<br><br>
+                    ➢ Accountability: We are dedicated to being answerable for our
+decisions and actions.This value ensures that we remain
+responsible to our beneficiaries,partners,and donors,fostering reliability and continuous improvement.
+<br><br>
+                    ➢  Authenticity:We consistently align our actions with our mission and objectives,delivering genuine and impactful programs that truly address the needs of the communities we serve.</p>
                 </div>
               </li>
             </ul>
@@ -276,14 +289,14 @@
               <a href="#" class="stretched-link">
                 <h3> Digital Engagements</h3>
               </a>
-              <p>Recognizing the growing influence of digital life, this program leverages online platforms to empower youth with knowledge about SRHR, HIV/AIDS, substance abuse, and mental health. Activities include regular posts on social media, live discussions on platforms like X (Twitter) Spaces, and radio talks, ensuring accurate and accessible health information reaches the digital generation.</p>
+              <p>Recognizing the influence of the digital era, we connect with young people where they are most active—online. Through social media campaigns and radio talks, we disseminate accurate, youth-friendly health information, empowering adolescents and young adults to make informed health decisions. These platforms also guide them to accessible, youth-friendly services, ensuring no young person is left behind in accessing the care they need</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fa fa-calendar-check"></i>
+                <i class="fas fa-brain"></i>
               </div>
               <a href="#" class="stretched-link">
                 <h3>Informed Gens</h3>
@@ -308,7 +321,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fa fa-users"></i>
+                <i class="fas fa-hand-holding-heart"></i>
               </div>
               <a href="#" class="stretched-link">
                 <h3>Like Your Sister</h3>
@@ -321,7 +334,7 @@
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
-                <i class="fa fa-users-cog"></i>
+                <i class="fas fa-shield-alt"></i>
               </div>
               <a href="#" class="stretched-link">
                 <h3> No One is Immune </h3>
@@ -334,7 +347,55 @@
           
             
           
-             
+            
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> HIV/AIDS Awareness and Prevention
+ </h3>
+              </a>
+              <p> 
+              Our Get Tested, Stay Healthy program emphasizes the importance of regular HIV testing as a cornerstone of health and well-being. By engaging communities, particularly key populations, we address misconceptions, promote the benefits of knowing one’s HIV status, and provide a pathway to the next steps for staying healthy. The program also fosters supportive environments by actively combating stigma and discrimination, creating a safe space for those living with or affected by HIV.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-chalkboard-teacher"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3> IFG Clubs
+ </h3>
+              </a>
+              <p> 
+              
+In partnership with the Rwanda Biomedical Center, IFG Clubs are youth-led platforms designed to empower young people to become health ambassadors in their communities. These clubs provide an engaging curriculum focusing on critical topics such as sexual and reproductive health and rights (SRHR), HIV/AIDS awareness and prevention, gender equality, substance abuse prevention, and mental health awareness. By nurturing leadership and advocacy skills, we enable young people to lead by example and inspire healthier lifestyles within their communities.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div> 
+          
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Collaboration
+</h3>
+              </a>
+              <p> 
+              We believe in the strength of strategic partnerships to amplify our impact. Collaborating with public and private institutions, gender activists, youth advocates, and peer educators, we create environments that support informed decision-making and empower young people to thrive. Together, we work toward a shared vision of healthier, more resilient communities, ensuring that future generations are equipped with the knowledge and resources they need to lead responsible lives.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div>
+
+
           
            
           
@@ -538,9 +599,9 @@ if (isset($_POST['submit'])) {
             <div class="team-member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/shimwa-img.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>SHIMWA MBABAZI Josiane</h4>
-                <span>Executive Secretary</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <h4>Kanisa Rebecca </h4>
+                <span>Web Developer</span>
+                <p>Tech Team </p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -574,9 +635,9 @@ if (isset($_POST['submit'])) {
             <div class="team-member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/bosco.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>NIYONKURU Jean Bosco</h4>
-                <span> Executive Assitance</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                <h4>Iyabikoze Nelly</h4>
+                <span> Web Developer</span>
+                <p>Tech Team</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
