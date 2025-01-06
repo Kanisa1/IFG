@@ -535,6 +535,7 @@ if (isset($_POST['submit'])) {
   $b = $_POST['lastName'] ?? '';
   $c = $_POST['phone'] ?? '';
   $d = $_POST['email'] ?? '';
+  $e = $_POST['message'] ?? '';
 
   $con = mysqli_connect("localhost", "root", "", "ifg");
 
@@ -542,7 +543,7 @@ if (isset($_POST['submit'])) {
     die("Connection failed: " . mysqli_connect_error());
   }
 
-  $ex = "INSERT INTO `donate`(`ID`, `firstName`, `lastName`, `phone`, `email`) VALUES ('','$a','$b','$c','$d')";
+  $ex = "INSERT INTO `donate`(`ID`, `firstName`, `lastName`, `phone`, `email`, `message`) VALUES ('','$a','$b','$c','$d','$e')";
 
   $exq = mysqli_query($con, $ex);
 
