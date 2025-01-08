@@ -529,13 +529,12 @@ Make your donation today and empower youth to make informed health choices for a
 </form>
 
 
-      <?php
+<?php
 if (isset($_POST['submit'])) {
   $a = $_POST['firstName'] ?? '';
   $b = $_POST['lastName'] ?? '';
   $c = $_POST['phone'] ?? '';
   $d = $_POST['email'] ?? '';
-  $e = $_POST['message'] ?? '';
 
   $con = mysqli_connect("localhost", "root", "", "ifg");
 
@@ -543,7 +542,7 @@ if (isset($_POST['submit'])) {
     die("Connection failed: " . mysqli_connect_error());
   }
 
-  $ex = "INSERT INTO `donate`(`ID`, `firstName`, `lastName`, `phone`, `email`, `message`) VALUES ('','$a','$b','$c','$d','$e')";
+  $ex = "INSERT INTO donate(ID, firstName, lastName, phone, email) VALUES ('','$a','$b','$c','$d')";
 
   $exq = mysqli_query($con, $ex);
 
@@ -594,33 +593,13 @@ if (isset($_POST['submit'])) {
           </div><!-- End Team Member -->
 
 
-
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/shimwa-img.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Kanisa Rebecca </h4>
-                <span>Web Developer</span>
-                <p>Tech Team </p>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member d-flex align-items-start">
               <div class="pic"><img src="assets/img/team/chris-img.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>MUHIRE Neika Chris</h4>
                 <span>Deputy Executive Director</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <p>Staff</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -630,11 +609,34 @@ if (isset($_POST['submit'])) {
               </div>
             </div>
           </div><!-- End Team Member -->
+
+
+
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/kanisa.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Kanisa Rebecca </h4>
+                <span>Web Developer</span>
+                <p>Tech Team </p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href="https://www.facebook.com/share/1AhBFjcQK2/?mibextid=LQQJ4d"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/kemi_donii12?igsh=amZiZTJ4ZWc5NTlu"><i class="bi bi-instagram"></i></a>
+                  <a href="linkedin.com/in/kanisa-rebecca-majok-789b5227b"> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+          
           
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/bosco.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/nelly.jpg"  class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Iyabikoze Nelly</h4>
                 <span> Web Developer</span>
@@ -642,8 +644,8 @@ if (isset($_POST['submit'])) {
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                  <a href="https://www.instagram.com/amnelly_official?igsh=MWN4NHluNThkMHVxbA%3D%3D&utm_source=qr"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/nelly-iyabikoze-036447290/"> <i class="bi bi-linkedin"></i> </a>
                 </div>
               </div>
             </div>
@@ -655,7 +657,7 @@ if (isset($_POST['submit'])) {
               <div class="member-info">
                 <h4>KAYISIRE Natacha</h4>
                 <span>Director of finance and Human resources</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <p>Staff</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -672,7 +674,7 @@ if (isset($_POST['submit'])) {
               <div class="member-info">
                 <h4>ABAYISENGA Solange</h4>
                 <span>Director of Public Relations</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <p>Staff</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -689,7 +691,7 @@ if (isset($_POST['submit'])) {
               <div class="member-info">
                 <h4>DUSABE Ange Joselyne</h4>
                 <span>Director Of Monitoring and Evaluation</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
+                <p>Staff</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -709,7 +711,7 @@ if (isset($_POST['submit'])) {
               <div class="member-info">
                 <h4>MANIZABAYO Emmanuel</h4>
                 <span>Director Of Programs</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <p>Staff</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -733,7 +735,7 @@ if (isset($_POST['submit'])) {
               <div class="member-info">
                 <h4>KOMEZUSENGE Mertine</h4>
                 <span>General Secretary</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <p>Staff</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -751,7 +753,7 @@ if (isset($_POST['submit'])) {
               <div class="member-info">
                 <h4>NIYIGENA Patrick</h4>
                 <span>Administrative Assistant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <p>Staff</p>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -890,7 +892,7 @@ if (isset($_POST['submit'])) {
                       <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img flex-shrink-0" alt="">
                       <div>
                         <h3>NIYIGENA Patrick</h3>
-                        <h4>Ceo &amp; Founder</h4>
+                        <h4>Staff</h4>
                         <div class="stars">
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
@@ -1118,13 +1120,15 @@ if (isset($_POST['submit'])) {
             </div><!-- End Info Item -->
 
           </div>
+
+          
           
 
           
 
 <!-- HTML form -->
 <div class="col-lg-8">
-<form method="POST">
+<form  method="POST">
     <div class="row gy-4">
         <div class="col-md-12">
             <b>JOIN OUR COMMUNITY</b>
@@ -1160,8 +1164,6 @@ if (isset($_POST['submit'])) {
 </form>
 
 
-  
-
 
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
@@ -1186,7 +1188,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     }
 
     // Prepare SQL query
-    $sql = "INSERT INTO `join_us` (`name`, `email`, `sex`, `education`, `phone`, `category`, `message`) 
+    $sql = "INSERT INTO join_us (name, email, sex, education, phone, category, message) 
             VALUES ('$name', '$email', '$sex', '$education', '$phone', '$category', '$message')";
 
     // Execute query and check for success
@@ -1200,6 +1202,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
     mysqli_close($con);
 }
 ?>
+  
+
+
+
 
 
 </div>
